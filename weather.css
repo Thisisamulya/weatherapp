@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+/*Laptop*/
+@media only screen and (min-width: 1024px) {
+    body{
+        display:flex;
+        justify-content: center;
+        background-image: url("https://images.unsplash.com/photo-1597200381847-30ec200eeb9a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    }
+    .container{
+        margin-top:70px;
+        border:3px solid rgb(255, 255, 255,0.7);
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(150px);
+        background-color:rgba(255, 255, 255, 0.421);
+        border-radius: 15px;
+        box-shadow: 2px 3px 4px rgb(0, 0, 0);
+    }
+    .descript{
+        font-size: 25px;
+        font-family: "Roboto Slab", serif;
+        font-weight: 700;   
+        color: white;
+        margin:40px 0px 0px 40px;
+    }
+    #time{
+        font-size: 16px;
+        font-family: "Roboto Slab", serif;  
+        margin:5px 0px 0px 40px;
+        color: rgb(239, 239, 239);
+    }
+    .imgs img{
+        float:right;
+        width:80px;
+        height:80px;
+        margin:20px 20px 0px 60px;
+        border-radius: 10px;
+        box-shadow: 1px 2px 2px rgb(0, 0, 0);
+    }
+    .header{
+        display:flex;
+        flex-direction:row;
+    }
+    .country{
+        font-size: 25px;
+        font-family: "Roboto Slab", serif;  
+        font-weight: 550; 
+        margin-top: 30px;
+    }
+    .icon{
+        width:100px;
+        height:100px;
+        margin:0px 50px 20px 0px;
+    }
+    .footer{
+        border:2px solid rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px 10px 20px 10px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(233, 233, 255), 0 0 1px rgb(220, 237, 255);
+        
+    }
+    .temperaturee{
+        font-size: 45px;
+        font-family: "Lora", serif;
+        font-weight: 500;
+        margin-top: 30px;
+        color: white;
+    }
+    .foot{
+        font-size: 25px;
+        font-family: "Roboto Slab", serif;  
+        font-weight: 550; 
+        margin: 40px 10px 10px 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    .humidity{
+        margin-right: 40px;
+    }
+}
+/*mobile*/
+@media (max-width: 999px) {
+    body{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-image: url("https://i.pinimg.com/736x/1f/4a/d9/1f4ad9b6fef3e5eb47d3bc7b61549e08.jpg");
+        background-repeat: no-repeat;
+        background-size: 1500px;
+    }
+    .container{
+        border:10px solid rgb(255, 255, 255);
+
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:rgba(255, 255, 255, 0.421);
+        border-radius: 50px;
+        box-shadow: 12px 13px 12px rgb(0, 0, 0);
+    }
+    .notif{
+        font-size: 50px;
+    }
+    .descript{
+        font-size: 85px;
+        font-family: "Roboto Slab", serif;
+        font-weight: 700;   
+        color: white;
+        margin:40px 0px 0px 40px;
+    }
+    #time{
+        font-size: 65px;
+        font-family: "Roboto Slab", serif;  
+        margin:5px 0px 0px 40px;
+        color: rgb(184, 183, 183);
+    }
+    .imgs img{
+        float:right;
+        width:180px;
+        height:180px;
+        margin:90px 20px 0px 120px;
+        border-radius: 10px;
+        box-shadow: 1px 2px 2px rgb(0, 0, 0);
+    }
+    .header{
+        display:flex;
+        flex-direction:row;
+    }
+    .country{
+        font-size: 75px;
+        font-family: "Roboto Slab", serif;  
+        font-weight: 550; 
+        margin-top: 90px;
+    }
+    .icon img{
+        width:500px;
+        height:500px;
+    }
+    .lhead{
+        margin-right:40px;
+        margin-top: 10px;
+    }
+    .footer{
+        border:7px solid rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 40px 30px 50px 30px;
+        border-radius: 20px;
+        box-shadow: 8px 8px 10px rgb(255, 255, 255), 0 0 65px rgb(233, 233, 255), 0 0 8px rgb(220, 237, 255);
+    }
+    .temperaturee{
+        font-size: 120px;
+        font-family: "Lora", serif;
+        font-weight: 500;
+        margin-top: 30px;
+        color: white;
+    }
+    .foot{
+        font-size: 55px;
+        font-family: "Roboto Slab", serif;  
+        font-weight: 550; 
+        margin: 80px 10px 40px 40px;
+        display: flex;
+        flex-direction: row;
+    }
+    .humidity{
+        margin-right: 80px;
+    }
+}
