@@ -6,10 +6,10 @@ an application that gives live updates about weather of your current location
     Tech Stack: HTML, CSS, JavaScript, Web API and JSON
 
 # Instructions
-    👉 Ensure your device's { 📱 / 💻 } location services are activated to
-    prevent encountering a 'User access denied' notification / popup.
-    👉 Additionally, ensure that Google Chrome browser has permission 
-    to access your device's location for seamless functionality
+    👉 Ensure your device's { 📱 / 💻 } location services are activated to prevent encountering a 
+       'User access denied' notification / popup.
+    👉 Additionally, ensure that Google Chrome browser has permission to access your device's 
+       location for seamless functionality
 
 # Output 💻
 
