@@ -1,5 +1,5 @@
-# weatherapp
-an application that gives live updates about weather of your current location
+# The Weather app
+An application that gives live updates about weather of your current location
 
 🔗 Link for the application is provided in the "About" section of the repository 😊
 
